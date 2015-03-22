@@ -1,0 +1,41 @@
+Nombre del Proyecto:
+CSCK
+(Compartiendo Soluciones Código Karel)
+Versión 1.0
+
+
+Repositorio GIT:
+https://github.com/fcoalderete/ProyectoFinalWeb.git
+
+Objetivos iniciales del proyecto:
+Documentar, compartir y Almacenar los códigos que se generan durante los entrenamientos, cursos y exámenes de la Olimpiada de Informática, donde se programa con un lenguaje usado en  Karel ya sean en JAVA o en PASCAL, y además proponer soluciones para los problemas que se presenten.
+
+
+Alcance 
+Como un complemento y apoyo para los entrenadores/docentes que entrenan a los Alumnos de la Olimpiada se genera el presente proyecto, donde todas las actividades académicas serán guardadas y compartidas en el sitio Web que se creo para este propósito, y con esto se podrá documentar los envíos y estos quedaran debidamente almacenados, por lo que se tendrán listos para ser consultados, y los docentes podrá efectuar evaluaciones sobre los mismos, revisiones y lo mas importante: se podrán hacer análisis de las soluciones que cada olímpico ofrece para ciertos problemas, enriqueciendo la manera de pensar de todos y cada uno de los participantes.
+
+Tecnologías empleadas.
+Se utilizará un servidor Web, el cual se encontrará implementado con Linux UBUNTU Server 14.04 LTS, virtualizado con un proveedor de servicios de Cloud Computing: Amazon Web Services.
+En este servidor se instalará LAMP (Apache, MySQL y PHP). Con estos se habilitará los elementos que se requieren para que el servidor quede debidamente funcional.
+
+
+Innovaciones introducidas.
+Una de las principales innovaciones es que además de que se podrá compartir la información entres los alumnos, se tendrán todas las actividades y trabajos al alcance de la mano, permitiendo compartir códigos, y además quedaran para su mejora y/o enriquecimiento por otras personas que asi lo deseen.
+La tarea de revisión, seguimiento y evaluación por parte del catedrático que imparte la materia sera un poco más facil, ya que todos los trabajos quedaran debidamente registrados y compartidos.
+
+
+
+Diseño de base de datos.
+Para diseñar las bases de datos se utilizará a MySQL. Donde de primera instancia la estructura seria: 
+usuario, 
+contraseña, 
+correo electrónico, 
+idusuario, 
+idcodigo, 
+codigokarel, 
+comentario
+
+La Base de Datos sera llamada Bdcsck. De manera general el diseño seria así.
+
+Diseño de la aplicación web
+Para la implementación del sitio Web se instalará LAMP (Apache, MySQL y PHP) para activar los servicios para el HTTP. Y código que se utilizará será PHP y se esta analizando la opción de utilizar docuwiki como el WIKI para el intercambio de opiniones, e incluso como el pastebin inicial.
